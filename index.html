@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <!-- FAVICON -->
+    <link rel='shortcut icon' href='./src/assets/favicon.png' type='image/png' />
+    <!-- CSS -->
+    <link rel='stylesheet' href='./src/css/reset.css' />
+    <link rel='stylesheet' href='./src/css/style.css' />
+    <!-- JAVASCRIPT -->
+    <script defer src='./src/js/engine.js'></script>
+    <title>Jogo da Memória | Bruno Dórea</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <!-- GOOGLE TAG (gtag.js) -->
+    <script async src='https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD' ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-TJQ2XJZPTD');
+    </script>
+  </head>
+  <body>
+    <div class="container">
+        <h2>Jogo da Memória</h2>
+        <div class="game"></div>
+        <button class="reset" onclick="window.location.reload()">RESET GAME</button>
+      </div>
+  </body>
+</html>
